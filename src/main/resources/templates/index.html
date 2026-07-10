@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT Service Desk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/app.css}">
+</head>
+<body>
+<main class="container py-5">
+    <section class="hero mx-auto p-4 p-md-5 rounded-4 shadow-sm">
+        <span class="badge text-bg-primary mb-3">Spring Boot foundation</span>
+        <h1 class="display-5 fw-semibold">IT Service Desk System</h1>
+        <p class="lead text-secondary mb-4">
+            The Java 21 project structure, database migrations, security baseline, and development environment are ready.
+        </p>
+
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <h2 class="h5">Users and roles</h2>
+                        <p class="text-secondary mb-0">Requester, support agent, and administrator access.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <h2 class="h5">Ticket workflow</h2>
+                        <p class="text-secondary mb-0">Assignment, priority, status transitions, and SLA targets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <h2 class="h5">Audit history</h2>
+                        <p class="text-secondary mb-0">Trace important changes and support activity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
+
